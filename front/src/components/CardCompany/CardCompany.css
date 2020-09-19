@@ -1,0 +1,26 @@
+.cursor-card {
+  cursor: pointer;
+}
+
+.shadow-card:hover {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.card-title-size {
+  font-size: 1rem !important
+}
+
+.margin-card {
+  margin: 0 !important
+}
+
+.logo-image {
+  max-width: 100%;
+  height: 48px;
+}
+
+@media only screen and (max-width: 768px) {
+  .padding-phone {
+    padding: 0.25rem !important;
+  }
+}

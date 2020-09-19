@@ -1,0 +1,52 @@
+.add-note {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 25px;
+  padding-bottom: 2px;
+  -webkit-appearance: none;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plus-icon {
+    position: relative;
+    top: -2px;
+    font-size: 30px;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+.addButton {
+  border-radius: 50% !important;
+  padding: .375rem !important;
+  background-color: #007bff;
+}
+
+.button-tooltip::before {
+  width: 100px;
+  background-color: white;
+  border: 1px solid #888;
+  border-radius: 2px;
+  color: #444;
+  content: attr(id);
+  display: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 2px 5px;
+  position: absolute;
+  top: 17px;
+  left: 45px;
+  z-index: 1000;
+}
+
+.button-tooltip:hover::before {
+  display: block;
+}

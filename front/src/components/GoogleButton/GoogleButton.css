@@ -1,0 +1,27 @@
+a:hover, a {
+  text-decoration: none;
+  color: none;
+}
+.btn-position {
+  position: relative;
+}
+
+.google-logo {
+  width: 20px;
+  height: auto;
+}
+
+.logo-position {
+  position: absolute;
+  left: 10px;
+  bottom: 25%;
+}
+
+@media (max-width: 480px) {
+  .font-size-sm {
+    font-size: 14px !important;
+  }
+  .logo-position {
+    display: none;
+  }
+}

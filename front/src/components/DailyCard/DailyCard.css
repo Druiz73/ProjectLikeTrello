@@ -1,0 +1,138 @@
+ .hidden {
+	 display: none !important;
+	 visibility: hidden;
+}
+
+.daily-note--title {
+	font-size: 16px;
+}
+
+.daily-note--text {
+	font-size: 14px;
+}
+
+ .visuallyhidden {
+	 border: 0;
+	 clip: rect(0 0 0 0);
+	 height: 1px;
+	 margin: -1px;
+	 overflow: hidden;
+	 padding: 0;
+	 position: absolute;
+	 width: 1px;
+}
+
+ .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+	 clip: auto;
+	 height: auto;
+	 margin: 0;
+	 overflow: visible;
+	 position: static;
+	 width: auto;
+}
+ .invisible {
+	 visibility: hidden;
+}
+ .clearfix:before, .clearfix:after {
+	 content: " ";
+	 display: table;
+}
+ .clearfix:after {
+	 clear: both;
+}
+ .noflick, #board, .daily-note, .button {
+	 perspective: 1000;
+	 backface-visibility: hidden;
+	 transform: translate3d(0, 0, 0);
+}
+
+ .daily-note {
+	 float: left;
+	 display: block;
+	 position: relative;
+	 padding: 1em;
+	 width: 250px;
+	 min-height: 250px;
+	 margin: 0 30px 30px 0;
+	 background: linear-gradient(top, rgba(0, 0, 0, .05), rgba(0, 0, 0, .25));
+	 background-color: #69F098;
+	 box-shadow: 5px 5px 10px -2px rgba(33, 33, 33, .3);
+	 transform: rotate(2deg);
+	 transform: skew(-1deg, 1deg);
+	 transition: transform 0.15s;
+	 z-index: 1;
+	 max-height: 320px;
+}
+
+ .daily-note.ui-draggable-dragging:nth-child(n) {
+	 box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .3);
+	 transform: scale(1.125) !important;
+	 z-index: 100;
+	 cursor: move;
+	 transition: transform 0.15s;
+}
+ .daily-note textarea {
+	 background-color: transparent;
+	 border: none;
+	 resize: vertical;
+	 font-family: "Gloria Hallelujah", cursive;
+	 width: 100%;
+	 padding: 5px;
+}
+ .daily-note textarea:focus {
+	 outline: none;
+	 border: none;
+	 box-shadow: 0 0 5px 1px rgba(0, 0, 0, .2) inset;
+}
+ .daily-note textarea.title {
+	 font-size: 12px;
+	 line-height: 1.2;
+	 color: #000;
+	 height: 38px;
+}
+ .daily-note textarea.cnt {
+	 min-height: 200px;
+}
+
+.daily-note textarea.cnt p {
+	font-size: 12px;
+}
+
+small, .small_time {
+	font-size: 10px;
+}
+
+.myNote {
+	background: #FAAACA;
+}
+
+.daily-note--users {
+	max-height: 40px;
+	font-size: 12px;
+	overflow: auto;
+}
+
+@media (max-width: 480px) {
+  
+  .daily-note {
+    width: 200px;
+  }
+  .daily-note textarea.cnt {
+    min-height: 120px;
+	}
+
+	.small_time {
+		font-size: 8px;
+	}
+
+	.daily-note textarea.title {
+		font-size: 16px;
+	}
+
+}
+
+@media (max-width: 320px) {
+	.font-size {
+		font-size: 12px;
+	}
+}

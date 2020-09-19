@@ -1,0 +1,24 @@
+.note-img-container {
+	background: #000;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+.note-img {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 100px;
+}
+
+.note-img img {
+	max-width: 100%;
+	height: auto;
+}
+
+.btn-close-img {
+	align-self: flex-end;
+	color: white;
+	padding: 5px;
+}

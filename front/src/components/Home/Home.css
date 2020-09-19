@@ -1,0 +1,48 @@
+.hero {
+  display: block;
+  background: url(hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+}
+
+.fadeIn {
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+}
+
+.hero-text5 {
+  font-size: 60px;
+  white-space: pre-line;
+}
+
+.btn-size {
+  width: 225px;
+  font-size: 22px !important;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+  .hero-text5 {
+    font-size: 40px;
+    white-space: pre-line;
+  }
+
+  .btn-size {
+    font-size: 12px !important;
+    width: 116px;
+  }
+}

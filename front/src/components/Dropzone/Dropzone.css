@@ -1,0 +1,10 @@
+.dropzone {
+	border: 1px dashed gray;
+	width: 100%;
+	cursor: pointer;
+}
+
+.instruction-text {
+	font-size: 12px;
+}
+

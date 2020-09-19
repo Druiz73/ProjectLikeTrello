@@ -1,0 +1,13 @@
+.main-container-height {
+  height: 100vh;
+}
+
+@media (max-width: 480px) {
+  .font-size-sm {
+    font-size: 14px !important;
+  }
+  .block {
+    display: block;
+    text-align: center;
+  }
+}

@@ -1,0 +1,33 @@
+.img-width {
+  width: 40px;
+}
+
+.nav-link {
+  padding: 0 !important;
+}
+
+.logo-title,
+.logo-title:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.logo-title img {
+  width: 32px;
+  margin: 0 8px;
+}
+
+.active {
+  background: #007bff;
+  color: white !important;
+}
+
+@media (max-width: 468px) {
+  .align-text {
+    text-align: center;
+  }
+
+  .hamburger-icon {
+    font-size: 26px !important;
+  }
+}

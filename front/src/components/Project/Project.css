@@ -1,0 +1,37 @@
+.member-icon {
+  width: 25px;
+}
+
+.title-size {
+  font-size: 30px;
+}
+
+.room-link {
+  color: blue;
+  cursor: pointer;
+}
+
+.room-link:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .main-container {
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-size {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .card-title--text {
+    font-size: 18px;
+  }
+}
+
+.card-size-fix {
+  height: 400px;
+}

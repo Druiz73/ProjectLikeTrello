@@ -1,0 +1,40 @@
+.fondo-color-cork{
+  background: url('./superficie-corcho.jpg');
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+
+
+.fondo-color-dark{
+  background: url('./pared-dark.jpg');
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+
+
+.fondo-color-wood{
+  background: url('./pared-de-madera.jpg');
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 2% !important;
+  color: #fff;
+  text-align: center;
+  opacity: .5;
+  transition: opacity .15s ease;
+}
